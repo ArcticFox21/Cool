@@ -3,9 +3,7 @@
 -- ==========================================
 sampAddChatMessage("{00FF00}[Sandbox] {FFFFFF}New AI code loaded successfully!", -1)
 
--- PUT NEW CODES HERE
-local imgui = require 'mimgui'
-local sampev = require 'lib.samp.events'
+
 
 local uiVisible = imgui.new.bool(false)
 local serverTimeStr = "Fetching..."
